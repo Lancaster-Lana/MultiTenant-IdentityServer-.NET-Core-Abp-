@@ -3,7 +3,7 @@ using Abp.Application.Services;
 using Abp.Application.Services.Dto;
 using IS.MultiTenancy.Dto;
 
-namespace IS.MultiTenancy
+namespace IS.Application.MultiTenancy
 {
     public interface ITenantAppService : IApplicationService
     {

@@ -5,8 +5,8 @@
     <PreserveCompilationContext>true</PreserveCompilationContext>
     <AssemblyName>IS.Web.Host</AssemblyName>
     <OutputType>Exe</OutputType>
-    <PackageId>IdentityServerDemo.Web.Host</PackageId>
-    <UserSecretsId>AbpCompanyName-IdentityServerDemo-56C2EF2F-ABD6-4EFC-AAF2-2E81C34E8FB1</UserSecretsId>
+    <PackageId>IS.Web.Host</PackageId>
+    <UserSecretsId>AbpCompanyName-IS</UserSecretsId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net461' ">
     <DefineConstants>FEATURE_SIGNALR</DefineConstants>

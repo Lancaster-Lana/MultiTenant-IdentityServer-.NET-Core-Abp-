@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using IS.Configuration.Dto;
 
-namespace IS.Configuration
+namespace IS.Application.Configuration
 {
     public interface IConfigurationAppService
     {

@@ -3,7 +3,7 @@ using Abp.Application.Services;
 using Abp.Application.Services.Dto;
 using IS.Candidates.Dto;
 
-namespace IS.Candidates
+namespace IS.Application.Candidates
 {
     public interface ICandidateAppService : IApplicationService
     {

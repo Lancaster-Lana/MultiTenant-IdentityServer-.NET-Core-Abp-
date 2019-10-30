@@ -4,9 +4,9 @@ using Abp.Authorization;
 using IS.Authorization.Roles;
 using IS.Roles.Dto;
 
-namespace IS.Roles
+namespace IS.Application.Roles
 {
-    /* THIS IS JUST A SAMPLE. */
+ 
     public class RoleAppService : AppServiceBase,IRoleAppService
     {
         private readonly RoleManager _roleManager;

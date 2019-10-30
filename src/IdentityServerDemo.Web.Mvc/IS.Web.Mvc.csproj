@@ -6,8 +6,8 @@
     <AssemblyName>IS.Web.Mvc</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>IdentityServerDemo.Web.Mvc</PackageId>
-    <UserSecretsId>AbpCompanyName-IdentityServerDemo-56C2EF2F-ABD6-4EFC-AAF2-2E81C34E8FB1</UserSecretsId>
-    <RootNamespace>IS.Web</RootNamespace>
+    <UserSecretsId>AbpCompanyName-IS</UserSecretsId>
+    <RootNamespace>IS.Web.Mvc</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net461' ">
     <DefineConstants>FEATURE_SIGNALR</DefineConstants>
@@ -71,6 +71,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\Logs\" />
     <Folder Include="wwwroot\view-resources\Views\_Bundles\" />
     <Folder Include="wwwroot\view-resources\Views\_Bundles\" />
   </ItemGroup>

@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Abp.Auditing;
+using IS.Core;
 using IS.Sessions.Dto;
 using IS.SignalR;
 
-namespace IS.Sessions
+namespace IS.Application.Sessions
 {
     public class SessionAppService : AppServiceBase, ISessionAppService
     {

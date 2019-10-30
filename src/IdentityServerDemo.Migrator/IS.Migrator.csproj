@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
-    <AssemblyName>IdentityServerDemo.Migrator</AssemblyName>
+    <AssemblyName>IS.Migrator</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>IdentityServerDemo.Migrator</PackageId>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>

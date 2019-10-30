@@ -2,7 +2,7 @@
 using Abp.Application.Services;
 using IS.Sessions.Dto;
 
-namespace IS.Sessions
+namespace IS.Application.Sessions
 {
     public interface ISessionAppService : IApplicationService
     {

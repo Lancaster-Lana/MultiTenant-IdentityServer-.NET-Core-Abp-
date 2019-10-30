@@ -8,7 +8,7 @@ using IS.Authorization.Users;
 using IS.Users.Dto;
 using Microsoft.AspNetCore.Identity;
 
-namespace IS.Users
+namespace IS.Application.Users
 {
     /* THIS IS JUST A SAMPLE. */
     [AbpAuthorize(PermissionNames.Pages_Users)]

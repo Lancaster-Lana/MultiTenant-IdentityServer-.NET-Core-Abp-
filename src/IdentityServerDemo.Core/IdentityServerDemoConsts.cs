@@ -1,8 +1,8 @@
-﻿namespace IS
+﻿namespace IS.Core
 {
     public class ISConsts
     {
-        public const string LocalizationSourceName = "IS";
+        public const string LocalizationSourceName = "IS.Core";
 
         public const string ConnectionStringName = "Default";
 

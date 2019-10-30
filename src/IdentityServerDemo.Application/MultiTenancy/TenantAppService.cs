@@ -11,10 +11,11 @@ using IS.Authorization;
 using IS.Authorization.Roles;
 using IS.Authorization.Users;
 using IS.Editions;
+using IS.MultiTenancy;
 using IS.MultiTenancy.Dto;
 using Microsoft.AspNetCore.Identity;
 
-namespace IS.MultiTenancy
+namespace IS.Application.MultiTenancy
 {
     [AbpAuthorize(PermissionNames.Pages_Tenants)]
     public class TenantAppService : AppServiceBase, ITenantAppService

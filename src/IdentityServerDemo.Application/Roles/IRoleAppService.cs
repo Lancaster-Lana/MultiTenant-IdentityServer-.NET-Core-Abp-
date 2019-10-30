@@ -2,7 +2,7 @@
 using Abp.Application.Services;
 using IS.Roles.Dto;
 
-namespace IS.Roles
+namespace IS.Application.Roles
 {
     public interface IRoleAppService : IApplicationService
     {

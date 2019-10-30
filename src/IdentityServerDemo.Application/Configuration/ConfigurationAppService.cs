@@ -1,9 +1,10 @@
 ﻿using System.Threading.Tasks;
 using Abp.Authorization;
 using Abp.Runtime.Session;
+using IS.Configuration;
 using IS.Configuration.Dto;
 
-namespace IS.Configuration
+namespace IS.Application.Configuration
 {
     [AbpAuthorize]
     public class ConfigurationAppService : AppServiceBase, IConfigurationAppService

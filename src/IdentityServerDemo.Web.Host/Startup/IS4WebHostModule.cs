@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 using IS.Configuration;
+using IS.Web.Core;
 
 namespace IS.Web.Host.Startup
 {

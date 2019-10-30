@@ -3,7 +3,7 @@ using Abp.Application.Services;
 using Abp.Application.Services.Dto;
 using IS.Users.Dto;
 
-namespace IS.Users
+namespace IS.Application.Users
 {
     public interface IUserAppService : IApplicationService
     {

@@ -2,7 +2,7 @@
 using Abp.Application.Services;
 using IS.Authorization.Accounts.Dto;
 
-namespace IS.Authorization.Accounts
+namespace IS.Application.Authorization.Accounts
 {
     public interface IAccountAppService : IApplicationService
     {

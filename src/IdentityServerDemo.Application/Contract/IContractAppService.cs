@@ -3,7 +3,7 @@ using Abp.Application.Services;
 using Abp.Application.Services.Dto;
 using IS.Contracts.Dto;
 
-namespace IS.Contracts
+namespace IS.Application.Contracts
 {
     public interface IContractAppService : IApplicationService
     {

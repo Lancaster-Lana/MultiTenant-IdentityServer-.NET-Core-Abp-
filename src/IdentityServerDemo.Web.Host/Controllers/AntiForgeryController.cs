@@ -1,4 +1,5 @@
-using IS.Controllers;
+
+using IS.Web.Core.Controllers;
 using Microsoft.AspNetCore.Antiforgery;
 
 namespace IS.Web.Host.Controllers

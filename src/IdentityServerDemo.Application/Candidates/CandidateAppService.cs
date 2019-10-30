@@ -5,7 +5,7 @@ using Abp.Authorization;
 using IS.Authorization;
 using IS.Candidates.Dto;
 
-namespace IS.Candidates
+namespace IS.Application.Candidates
 {
     [AbpAuthorize(PermissionNames.Pages_Candidates)]
     public class CandidateAppService : AppServiceBase, ICandidateAppService

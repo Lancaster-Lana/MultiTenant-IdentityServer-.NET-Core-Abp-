@@ -1,5 +1,5 @@
 ﻿using Abp.AspNetCore.Mvc.Authorization;
-using IS.Controllers;
+using IS.Web.Core.Controllers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IS.Web.Controllers

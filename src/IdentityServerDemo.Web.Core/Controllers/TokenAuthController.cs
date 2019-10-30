@@ -10,6 +10,7 @@ using Abp.AutoMapper;
 using Abp.MultiTenancy;
 using Abp.Runtime.Security;
 using Abp.UI;
+using IS.Application.Authorization;
 using IS.Authentication.External;
 using IS.Authentication.JwtBearer;
 using IS.Authorization;
@@ -19,7 +20,7 @@ using IS.MultiTenancy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IS.Controllers
+namespace IS.Web.Core.Controllers
 {
     [Route("api/[controller]/[action]")]
     public class TokenAuthController : ISControllerBase

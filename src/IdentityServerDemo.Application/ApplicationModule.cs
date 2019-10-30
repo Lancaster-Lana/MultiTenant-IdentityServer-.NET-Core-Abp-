@@ -3,8 +3,9 @@ using Abp.AutoMapper;
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 using IS.Authorization;
+using IS.Core;
 
-namespace IS
+namespace IS.Application
 {
     [DependsOn(
         typeof(ISCoreModule), 

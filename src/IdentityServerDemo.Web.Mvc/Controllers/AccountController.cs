@@ -23,11 +23,12 @@ using IS.Authorization;
 using IS.MultiTenancy;
 using IS.Web.Models.Account;
 using IS.Authorization.Users;
-using IS.Controllers;
 using IS.Identity;
-using IS.Sessions;
 using IS.Web.Views.Shared.Components.TenantChange;
 using Microsoft.AspNetCore.Identity;
+using IS.Application.Authorization;
+using IS.Web.Core.Controllers;
+using IS.Application.Sessions;
 
 namespace IS.Web.Controllers
 {

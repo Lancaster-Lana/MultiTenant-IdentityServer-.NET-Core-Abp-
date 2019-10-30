@@ -2,8 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Shouldly;
 using Xunit;
-using IS.Users;
 using IS.Users.Dto;
+using IS.Application.Users;
 
 namespace IS.Tests.Users
 {

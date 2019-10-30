@@ -3,6 +3,7 @@ using Abp.IdentityServer4;
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Abp.Zero.EntityFrameworkCore;
+using IS.Core;
 using IS.EntityFrameworkCore.Seed;
 
 namespace IS.EntityFrameworkCore

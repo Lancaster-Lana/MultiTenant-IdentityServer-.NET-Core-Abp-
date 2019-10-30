@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using Abp.Reflection.Extensions;
 
-namespace IS.Web
+namespace IS.Core
 {
     /// <summary>
     /// This class is used to find root path of the web project in;
@@ -20,7 +20,7 @@ namespace IS.Web
             }
 
             var directoryInfo = new DirectoryInfo(coreAssemblyDirectoryPath);
-            while (!DirectoryContains(directoryInfo.FullName, "IS.sln"))
+            while (!DirectoryContains(directoryInfo.FullName, "IS.Core.sln"))
             {
                 if (directoryInfo.Parent == null)
                 {

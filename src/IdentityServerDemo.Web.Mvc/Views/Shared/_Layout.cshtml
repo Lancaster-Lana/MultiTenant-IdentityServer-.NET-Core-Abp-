@@ -2,7 +2,7 @@
 @using Abp.Configuration
 @using Abp.Web.Security.AntiForgery
 @using Abp.Configuration.Startup
-@using IS
+@using IS.Core
 @using IS.SignalR
 @using IS.Web.Resources
 @using IS.Web.Views.Shared.Components.SideBarNav
@@ -20,7 +20,6 @@
     Layout = null;
     AbpAntiForgeryManager.SetCookie(Context);
     var uiTheme = await SettingManager.GetSettingValueAsync(AppSettingNames.UiTheme);
-
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -88,7 +87,7 @@
     <!-- #END# Page Loader -->
     <!-- Overlay For Sidebars -->
     <div class="overlay"></div>
- 
+
     <!-- Search Bar -->
     <div class="search-bar">
         <div class="search-icon">
@@ -99,7 +98,7 @@
             <i class="material-icons">close</i>
         </div>
     </div>
- 
+
     <!-- Top Bar -->
     <nav class="navbar">
         <div class="container-fluid">
@@ -174,7 +173,7 @@
         <script src="~/js/admin.js"></script>
         <script src="~/js/main.js" asp-append-version="true"></script>
         <script src="~/view-resources/Views/Shared/_Layout.js" asp-append-version="true"></script>
-        
+
         @if (SignalRFeature.IsAvailable)
         {
             <script src="~/lib/signalr/jquery.signalR.js" asp-append-version="true"></script>

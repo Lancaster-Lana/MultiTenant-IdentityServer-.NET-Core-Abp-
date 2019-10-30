@@ -1,6 +1,7 @@
 ﻿using Abp.AspNetCore.Mvc.Views;
 using Abp.Runtime.Session;
 using Microsoft.AspNetCore.Mvc.Razor.Internal;
+using IS.Core;
 
 namespace IS.Web.Views
 {

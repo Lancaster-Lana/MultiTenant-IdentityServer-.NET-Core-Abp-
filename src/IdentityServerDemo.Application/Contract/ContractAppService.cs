@@ -5,7 +5,7 @@ using IS.Authorization;
 using IS.Clients.Dto;
 using IS.Contracts.Dto;
 
-namespace IS.Contracts
+namespace IS.Application.Contracts
 {
     [AbpAuthorize(PermissionNames.Pages_Contracts)]
     public class ContractAppService : AppServiceBase, IContractAppService

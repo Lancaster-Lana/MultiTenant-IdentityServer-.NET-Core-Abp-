@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Abp.Configuration.Startup;
-using IS.Sessions;
+using IS.Application.Sessions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IS.Web.Views.Shared.Components.SideBarUserArea

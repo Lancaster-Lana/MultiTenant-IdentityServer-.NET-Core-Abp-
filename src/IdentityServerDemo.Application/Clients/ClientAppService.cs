@@ -4,7 +4,7 @@ using Abp.Authorization;
 using IS.Authorization;
 using IS.Clients.Dto;
 
-namespace IS.Clients
+namespace IS.Application.Clients
 {
     [AbpAuthorize(PermissionNames.Pages_Clients)]
     public class ClientAppService : AppServiceBase, IClientAppService

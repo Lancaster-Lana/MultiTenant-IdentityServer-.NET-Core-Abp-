@@ -1,6 +1,7 @@
 ﻿using Abp.Authorization;
 using Abp.Localization;
 using Abp.MultiTenancy;
+using IS.Core;
 
 namespace IS.Authorization
 {

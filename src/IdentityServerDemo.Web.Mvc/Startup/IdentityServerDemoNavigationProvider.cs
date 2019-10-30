@@ -1,6 +1,7 @@
 ﻿using Abp.Application.Navigation;
 using Abp.Localization;
 using IS.Authorization;
+using IS.Core;
 
 namespace IS.Web.Startup
 {

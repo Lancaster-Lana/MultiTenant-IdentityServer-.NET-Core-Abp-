@@ -4,7 +4,7 @@ using Abp.Zero.Configuration;
 using IS.Authorization.Accounts.Dto;
 using IS.Authorization.Users;
 
-namespace IS.Authorization.Accounts
+namespace IS.Application.Authorization.Accounts
 {
     public class AccountAppService : AppServiceBase, IAccountAppService
     {

@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using IS.Application.Sessions;
 using IS.Sessions;
 using Shouldly;
 using Xunit;

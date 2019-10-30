@@ -1,8 +1,9 @@
 using Abp.AspNetCore.Mvc.Controllers;
 using Abp.IdentityFramework;
+using IS.Core;
 using Microsoft.AspNetCore.Identity;
 
-namespace IS.Controllers
+namespace IS.Web.Core.Controllers
 {
     public abstract class ISControllerBase: AbpController
     {

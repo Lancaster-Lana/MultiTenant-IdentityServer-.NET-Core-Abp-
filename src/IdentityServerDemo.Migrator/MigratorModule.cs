@@ -6,6 +6,7 @@ using Castle.MicroKernel.Registration;
 using IS.Configuration;
 using IS.EntityFrameworkCore;
 using IS.Migrator.DependencyInjection;
+using IS.Core;
 
 namespace IS.Migrator
 {

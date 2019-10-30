@@ -3,8 +3,9 @@ using Abp;
 using Abp.Authorization;
 using Abp.Dependency;
 using Abp.UI;
+using IS.Core;
 
-namespace IS.Authorization
+namespace IS.Application.Authorization
 {
     public class AbpLoginResultTypeHelper : AbpServiceBase, ITransientDependency
     {

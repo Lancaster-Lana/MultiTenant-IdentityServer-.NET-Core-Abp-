@@ -2,15 +2,15 @@
 using Abp.Reflection.Extensions;
 using Abp.Timing;
 using Abp.Zero;
-using IS.Localization;
 using Abp.Zero.Configuration;
 using IS.MultiTenancy;
 using IS.Authorization.Roles;
 using IS.Authorization.Users;
 using IS.Configuration;
 using IS.Timing;
+using IS.Core.Localization;
 
-namespace IS
+namespace IS.Core
 {
     [DependsOn(typeof(AbpZeroCoreModule))]
     public class ISCoreModule : AbpModule

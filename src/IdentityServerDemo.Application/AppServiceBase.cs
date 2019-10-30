@@ -6,8 +6,9 @@ using Abp.IdentityFramework;
 using Abp.Application.Services;
 using IS.MultiTenancy;
 using IS.Authorization.Users;
+using IS.Core;
 
-namespace IS
+namespace IS.Application
 {
     /// <summary>
     /// Derive your application services from this class.

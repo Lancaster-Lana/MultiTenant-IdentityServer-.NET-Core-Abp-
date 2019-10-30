@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Abp.AspNetCore.Mvc.Authorization;
 using IS.Authorization;
-using IS.Controllers;
-using IS.Contracts;
+using IS.Web.Core.Controllers;
+using IS.Application.Contracts;
 
 namespace IS.Web.Controllers
 {

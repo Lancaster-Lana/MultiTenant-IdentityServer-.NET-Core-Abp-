@@ -6,8 +6,10 @@ using Abp.AspNetCore.Configuration;
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Abp.Zero.Configuration;
+using IS.Application;
 using IS.Authentication.JwtBearer;
 using IS.Configuration;
+using IS.Core;
 using IS.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -17,7 +19,7 @@ using Microsoft.IdentityModel.Tokens;
 using Abp.Web.SignalR;
 #endif
 
-namespace IS
+namespace IS.Web.Core
 {
     [DependsOn(
          typeof(ISApplicationModule),

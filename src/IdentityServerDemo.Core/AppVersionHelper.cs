@@ -2,7 +2,7 @@
 using System.IO;
 using Abp.Reflection.Extensions;
 
-namespace IS
+namespace IS.Core
 {
     /// <summary>
     /// Central point for application version.

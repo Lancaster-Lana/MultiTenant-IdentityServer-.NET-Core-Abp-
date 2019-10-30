@@ -10,6 +10,7 @@ using IS.EntityFrameworkCore;
 using IS.Tests.DependencyInjection;
 using Castle.MicroKernel.Registration;
 using NSubstitute;
+using IS.Application;
 
 namespace IS.Tests
 {

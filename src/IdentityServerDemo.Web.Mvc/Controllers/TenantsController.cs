@@ -1,7 +1,8 @@
 ﻿using Abp.AspNetCore.Mvc.Authorization;
+using IS.Application.MultiTenancy;
 using IS.Authorization;
-using IS.Controllers;
 using IS.MultiTenancy;
+using IS.Web.Core.Controllers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IS.Web.Controllers

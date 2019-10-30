@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using IS.Core;
+using Xunit;
 
 namespace IS.Tests
 {

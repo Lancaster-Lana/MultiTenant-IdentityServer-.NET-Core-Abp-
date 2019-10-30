@@ -4,7 +4,7 @@ using Abp.Localization.Dictionaries;
 using Abp.Localization.Dictionaries.Xml;
 using Abp.Reflection.Extensions;
 
-namespace IS.Localization
+namespace IS.Core.Localization
 {
     public static class ISLocalizationConfigurer
     {
@@ -13,8 +13,7 @@ namespace IS.Localization
             localizationConfiguration.Sources.Add(
                 new DictionaryBasedLocalizationSource(ISConsts.LocalizationSourceName,
                     new XmlEmbeddedFileLocalizationDictionaryProvider(
-                        typeof(ISLocalizationConfigurer).GetAssembly(),
-                        "IS.Localization.SourceFiles"
+                        typeof(ISCoreModule).GetAssembly(), "IS.Core.Localization.SourceFiles"
                     )
                 )
             );

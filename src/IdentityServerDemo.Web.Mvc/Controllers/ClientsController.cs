@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 using Abp.AspNetCore.Mvc.Authorization;
+using IS.Application.Clients;
 using IS.Authorization;
-using IS.Clients;
-using IS.Controllers;
+using IS.Web.Core.Controllers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IS.Web.Controllers

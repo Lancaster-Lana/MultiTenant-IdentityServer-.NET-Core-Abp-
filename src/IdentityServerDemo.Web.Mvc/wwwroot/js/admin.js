@@ -40,11 +40,9 @@ $.AdminBSB.options = {
         effectIn: 'fadeIn',
         effectOut: 'fadeOut'
     }
-}
+};
 
-/* Left Sidebar - Function =================================================================================================
-*  You can manage the left sidebar menu options
-*  
+/* Left Sidebar
 */
 $.AdminBSB.leftSideBar = {
     activate: function () {
@@ -155,10 +153,7 @@ $.AdminBSB.leftSideBar = {
 };
 //==========================================================================================================================
 
-/* Right Sidebar - Function ================================================================================================
-*  You can manage the right sidebar menu options
-*  
-*/
+/* Right Sidebar - Function */
 $.AdminBSB.rightSideBar = {
     activate: function () {
         var _this = this;
